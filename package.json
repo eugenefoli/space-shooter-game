@@ -1,0 +1,17 @@
+{
+  "name": "space-shooter-game",
+  "version": "1.0.0",
+  "description": "Retro 2D vertical-scrolling space shooter built with Phaser 3.",
+  "type": "module",
+  "scripts": {
+    "test":          "vitest run",
+    "test:watch":    "vitest",
+    "test:coverage": "vitest run --coverage",
+    "deploy":        "npm test && python3 -m http.server 8080"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^2.0.0",
+    "jsdom": "^24.0.0",
+    "vitest": "^2.0.0"
+  }
+}
